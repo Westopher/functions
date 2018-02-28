@@ -36,6 +36,12 @@
 
 // TODO: Write solution here
 
+func printFullName(firstName: String, lastName: String) {
+    print("\(firstName) \(lastName)")
+}
+printFullName(firstName: "West", lastName: "Kraemer")
+
+
 /*:
  Change the declaration of `printFullName` to have no external name for either parameter.
  */
