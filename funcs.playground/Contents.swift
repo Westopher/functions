@@ -2,4 +2,8 @@
 
 import UIKit
 
-var str = "Hello, playground"
+func printMultiplesOfFive(value: Int) {
+    print("\(value) * 5 = \(value * 5)")
+}
+
+printMultiplesOfFive(value: 7)
