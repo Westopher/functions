@@ -59,14 +59,25 @@ printFullName("West", "Kraemer")
 
 // TODO: Write solution here
 
-func calculateFullName(first: String, last: String) -> String {
-    return (first + " " + last)
-}
-let name = calculateFullName(first: "West", last: "Kraemer")
-print(name)
+//func calculateFullName(first: String, last: String) -> String {
+//    return (first + " " + last)
+//}
+//let name = calculateFullName(first: "West", last: "Kraemer")
+//print(name)
 
 /*:
  Change `calculateFullName` to return a tuple containing both the full name and the length of the name. You can find a string’s length by using the following syntax: `string.characters.count`. Use this function to determine the length of your own full name.
  */
 
 // TODO: Write solution here
+
+func calculateFullName(first: String, last: String) -> (fullName: String, fullNameLength: Int) {
+    let fullName = first + " " + last
+    return (fullName, fullName.characters.count
+}
+let(fullName2, fullName2Length) )
+
+
+
+
+
