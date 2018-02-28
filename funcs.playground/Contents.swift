@@ -7,3 +7,26 @@ func printMultiplesOfFive(value: Int) {
 }
 
 printMultiplesOfFive(value: 7)
+
+
+//func printMultipleOf(multiplier: Int, andValue: Int) {
+//    print("\(multiplier) * \(andValue) = \(multiplier * andValue)")
+//}
+//printMultipleOf(multiplier: 10, andValue: 11)
+
+
+// the underscore means that you don't have to refer to this parameter as anything outside the function declaration. The "and" is what you refer to outside of the function declaration, when using the function.
+func printMultipleOf(_ multiplier: Int, and value: Int) {
+    print("\(multiplier) * \(value) = \(multiplier * value)")
+}
+printMultipleOf(4, and: 10)
+
+//to have a function return a value instead of printing it, use the arrow below to indicate the type returned
+func multiply(_ multiplier: Int, and value: Int) -> Int {
+    return multiplier * value
+}
+let result = multiply(10, and: 4)
+print("\(result)")
+
+
+
