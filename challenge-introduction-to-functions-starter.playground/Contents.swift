@@ -35,11 +35,11 @@
  */
 
 // TODO: Write solution here
-
-func printFullName(firstName: String, lastName: String) {
-    print("\(firstName) \(lastName)")
-}
-printFullName(firstName: "West", lastName: "Kraemer")
+//
+//func printFullName(firstName: String, lastName: String) {
+//    print("\(firstName) \(lastName)")
+//}
+//printFullName(firstName: "West", lastName: "Kraemer")
 
 
 /*:
@@ -47,6 +47,11 @@ printFullName(firstName: "West", lastName: "Kraemer")
  */
 
 // TODO: Write solution here
+func printFullName(_ firstName: String, _ lastName: String) {
+    print("\(firstName) \(lastName)")
+}
+printFullName("West", "Kraemer")
+
 
 /*:
  Write a function named `calculateFullName` that returns the full name as a string. Use it to store your own full name in a constant.
