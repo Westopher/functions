@@ -40,6 +40,32 @@ func add(_ x: Int, _ y: Int) -> Int {
 add(1, 2)
 print(add(4,5))
 
+//to make parameters mutable
+func incrementAndPrint(_ value: inout Int) {
+    value += 1
+    print(value)
+}
+var value3 = 5
+incrementAndPrint(&value3)
+
+//functions are data types
+
+func westAdds(_ a: Int, b: Int) -> Int {
+    return a + b
+}
+
+var function = westAdds
+
+function(4, 2)
+
+
+
+
+
+
+
+
+
 
 
 
