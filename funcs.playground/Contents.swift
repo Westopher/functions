@@ -28,5 +28,19 @@ func multiply(_ multiplier: Int, and value: Int) -> Int {
 let result = multiply(10, and: 4)
 print("\(result)")
 
+// function syntax:
+// func functionName(parameterList) -> ReturnType {
+// return returnValue
+//}
+
+//example function
+func add(_ x: Int, _ y: Int) -> Int {
+    return x + y
+}
+add(1, 2)
+print(add(4,5))
+
+
+
 
 
